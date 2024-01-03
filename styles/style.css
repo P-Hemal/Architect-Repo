@@ -232,18 +232,53 @@
     font-weight: 600;
     color: #727272;
 }
-.sponsor{
+
+.sponsor {
     text-align: center;
 }
-.title{
+
+.title {
     font-size: 45px;
     font-weight: 700;
     color: #131313;
     margin-top: 170px;
     margin-bottom: 24px;
 }
-.sub-title{
-color: #727272;
-font-size: 16px;
-font-weight: 400;
+
+.sub-title {
+    color: #727272;
+    font-size: 16px;
+    font-weight: 400;
+    margin-bottom: 50px;
+}
+
+.sopnsors {
+    display: flex;
+    justify-content: space-around;
+    margin-left: 240px;
+    margin-right: 240px;
+    color: none;
+    margin-bottom: 130px;
+}
+
+.sopnsors img {
+    -webkit-filter: grayscale(100%);
+    /* Safari 6.0 - 9.0 */
+    filter: grayscale(100%);
+}
+
+.copyright {
+    margin-bottom: 216px;
+}
+
+.reserved {
+    padding: 20px;
+    border-radius: 8px;
+    background: #FFF4E7;
+    text-align: center;
+    font-size: 20px;
+    font-weight: 400;
+    color: #424242;
+    margin-right: 240px;
+    margin-left: 240px;
 }
