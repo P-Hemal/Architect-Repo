@@ -9,7 +9,7 @@
 .header-container {
     background: rgba(255, 144, 14, 0.10);
     width: 1920px;
-    height: 1322px;
+    height: 1280px;
 }
 
 .container {
@@ -68,7 +68,51 @@
     border: none;
     margin-bottom: 50px;
 }
-.group-containers img{
+
+.group-containers img {
     margin-left: 240px;
     margin-right: 240px;
 }
+
+/*----------------------------
+    Quick List Section 
+ ----------------------------*/
+.container-2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 300px;
+    margin-top: 50px;
+    margin-bottom: 130px;
+}
+
+.Quicks {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 25px;
+}
+
+.Quick {
+    margin-left: 75px;
+    margin-right: 264px;
+
+}
+
+.Quick-title {
+    font-size: 45px;
+    font-weight: 500;
+    margin-bottom: 22px;
+}
+
+.Quick-description {
+    font-size: 16px;
+    font-weight: 400;
+    margin-bottom: 30px;
+}
+
+/*-------------------------------- 
+        Features Section 
+ ---------------------------------*/
+ .container-3{
+    display: flex;
+ }
