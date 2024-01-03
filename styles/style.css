@@ -113,6 +113,57 @@
 /*-------------------------------- 
         Features Section 
  ---------------------------------*/
- .container-3{
+.container-3 {
     display: flex;
- }
+    margin-left: 240px;
+    margin-right: 240px;
+    align-items: center;
+    
+}
+
+.features {
+
+    margin-right: 145px;
+
+}
+.feature-1{
+    /* padding: 30px; */
+    border-radius: 8px;
+    background: #FFF;
+    /* box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.06); */
+}
+
+.feature {
+    margin-top: 25px;
+    padding: 30px;
+    border-radius: 8px;
+    background: #FFF;
+    box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.06);
+}
+
+.feature-title {
+    font-size: 45px;
+    font-weight: 700;
+    color: #131313;
+    border-left: 5px solid #FF900E;
+    border-radius: 5px;
+    margin-bottom: 22px;
+    
+}
+
+.feature-sub-title {
+    font-size: 20px;
+    font-weight: 600;
+    color: #131313;
+    margin-bottom: 10px;
+}
+
+.feature-description {
+    color: #727272;
+    font-size: 16px;
+    font-weight: 400;
+}
+.features img{
+    height: 980;
+    width: 700;
+}
