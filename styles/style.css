@@ -118,7 +118,8 @@
     margin-left: 240px;
     margin-right: 240px;
     align-items: center;
-    
+    margin-bottom: -30px;
+
 }
 
 .features {
@@ -126,7 +127,8 @@
     margin-right: 145px;
 
 }
-.feature-1{
+
+.feature-1 {
     /* padding: 30px; */
     border-radius: 8px;
     background: #FFF;
@@ -148,7 +150,7 @@
     border-left: 5px solid #FF900E;
     border-radius: 5px;
     margin-bottom: 22px;
-    
+
 }
 
 .feature-sub-title {
@@ -163,7 +165,85 @@
     font-size: 16px;
     font-weight: 400;
 }
-.features img{
-    height: 980;
-    width: 700;
+
+.experiences {
+    padding: 26px 22px 25px 22px;
+    border-radius: 8px;
+    background: #FF900E;
+    border: none;
+    color: #FFF;
+    text-align: center;
+    font-size: 25px;
+    font-weight: 700;
+    width: 260px;
+    height: 160px;
+    margin-bottom: 130px;
+    margin-left: 980px;
+    margin-top: -100px;
+}
+
+/*------------------------------ 
+        Some fact Section 
+--------------------------------*/
+.fact-container {
+    margin-left: 250px;
+}
+
+.fact-title {
+    font-size: 45px;
+    font-weight: 700;
+    color: #131313;
+    margin-bottom: 24px;
+}
+
+.fact-description {
+    font-size: 16px;
+    font-weight: 400;
+    color: #727272;
+    margin-bottom: 100px;
+}
+
+/*---------------------------
+        Award Section 
+ ---------------------------*/
+
+.awards {
+    display: flex;
+    justify-content: space-around;
+    margin-left: 290px;
+    margin-right: 290px;
+}
+
+.award {
+    border-radius: 8px;
+    border: 1px solid #FF900E;
+    text-align: center;
+    padding: 30px;
+}
+
+.award-title {
+    font-size: 45px;
+    font-weight: 600;
+    color: #424242;
+}
+
+.award-description {
+    font-size: 20px;
+    font-weight: 600;
+    color: #727272;
+}
+.sponsor{
+    text-align: center;
+}
+.title{
+    font-size: 45px;
+    font-weight: 700;
+    color: #131313;
+    margin-top: 170px;
+    margin-bottom: 24px;
+}
+.sub-title{
+color: #727272;
+font-size: 16px;
+font-weight: 400;
 }
